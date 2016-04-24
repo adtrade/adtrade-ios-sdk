@@ -1,0 +1,28 @@
+{
+  "name": "Adtrade",
+  "version": "2.14.2",
+  "summary": "Adtrade development libraries.",
+  "homepage": "https://github.com/ninjafishstudios/Adtrade",
+  "license": {
+    "type": "Commercial",
+    "file": "LICENSE.txt"
+  },
+  "authors": {
+    "williamlocke": "williamlocke@me.com"
+  },
+  "source": {
+    "git": "https://github.com/ninjafishstudios/Adtrade.git",
+    "tag": "2.14.2"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "resources": "{Adtrade.podspec,Resources/Adtrade.bundle}",
+  "source_files": "Classes/**/*.[h,m]",
+  "frameworks": [
+    "AdSupport",
+    "QuartzCore",
+    "StoreKit"
+  ],
+  "requires_arc": true
+}

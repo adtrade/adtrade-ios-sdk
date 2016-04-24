@@ -1,0 +1,1 @@
+../../../../../Classes/Adtrade/Models/AdtradeProduct.h

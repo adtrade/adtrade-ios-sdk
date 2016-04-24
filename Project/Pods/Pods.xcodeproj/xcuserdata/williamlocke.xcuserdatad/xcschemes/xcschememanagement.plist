@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ATNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Adtrade.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AdtradeAPI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AdtradeSDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AdtradeSDKTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>021D4873FE32706388EDC514B052D1F7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6366F35C2010974A01A79E1E7C6C5266</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>968D8406ACCBF6940CD386C410427C09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C1A57840BCB266B763FCB6B5B41343EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C2E8973A90BEA2B3A0EE05F2338DBDFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

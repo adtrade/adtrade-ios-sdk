@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BDE1FB1CC7026B00151F3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BDE1FA1CC7026B00151F3B /* main.m */; };
+		01BDE1FE1CC7026B00151F3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BDE1FD1CC7026B00151F3B /* AppDelegate.m */; };
+		01BDE2011CC7026B00151F3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BDE2001CC7026B00151F3B /* ViewController.m */; };
+		01BDE2041CC7026B00151F3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BDE2021CC7026B00151F3B /* Main.storyboard */; };
+		01BDE2061CC7026B00151F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BDE2051CC7026B00151F3B /* Assets.xcassets */; };
+		01BDE2091CC7026B00151F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BDE2071CC7026B00151F3B /* LaunchScreen.storyboard */; };
+		01BDE2141CC7026B00151F3B /* AdtradeSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BDE2131CC7026B00151F3B /* AdtradeSDKTests.m */; };
+		01BDE21F1CC7026B00151F3B /* AdtradeSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BDE21E1CC7026B00151F3B /* AdtradeSDKUITests.m */; };
+		7D1D9E099A46880D329E359A /* libPods-AdtradeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F14953604D1B4A714B9097C5 /* libPods-AdtradeSDK.a */; };
+		EE42F0F144F3219020CCEA9C /* libPods-AdtradeSDKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D60A58983903726225250D66 /* libPods-AdtradeSDKTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01BDE2101CC7026B00151F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01BDE1EE1CC7026B00151F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01BDE1F51CC7026B00151F3B;
+			remoteInfo = AdtradeSDK;
+		};
+		01BDE21B1CC7026B00151F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01BDE1EE1CC7026B00151F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01BDE1F51CC7026B00151F3B;
+			remoteInfo = AdtradeSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BDE1F61CC7026B00151F3B /* AdtradeSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdtradeSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BDE1FA1CC7026B00151F3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01BDE1FC1CC7026B00151F3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01BDE1FD1CC7026B00151F3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01BDE1FF1CC7026B00151F3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01BDE2001CC7026B00151F3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01BDE2031CC7026B00151F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01BDE2051CC7026B00151F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01BDE2081CC7026B00151F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01BDE20A1CC7026B00151F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BDE20F1CC7026B00151F3B /* AdtradeSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdtradeSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BDE2131CC7026B00151F3B /* AdtradeSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdtradeSDKTests.m; sourceTree = "<group>"; };
+		01BDE2151CC7026B00151F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BDE21A1CC7026B00151F3B /* AdtradeSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdtradeSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BDE21E1CC7026B00151F3B /* AdtradeSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdtradeSDKUITests.m; sourceTree = "<group>"; };
+		01BDE2201CC7026B00151F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3C59F09A051CCE0BBD8BD0 /* Pods-AdtradeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdtradeSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdtradeSDK/Pods-AdtradeSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		95545D065702554944FB099D /* Pods-AdtradeSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdtradeSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdtradeSDKTests/Pods-AdtradeSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		D60A58983903726225250D66 /* libPods-AdtradeSDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdtradeSDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99899E4AAD3883E8D92A3CC /* Pods-AdtradeSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdtradeSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdtradeSDKTests/Pods-AdtradeSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F14953604D1B4A714B9097C5 /* libPods-AdtradeSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdtradeSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F424794CB0B0001367B2A3C9 /* Pods-AdtradeSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdtradeSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdtradeSDK/Pods-AdtradeSDK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01BDE1F31CC7026B00151F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1D9E099A46880D329E359A /* libPods-AdtradeSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BDE20C1CC7026B00151F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE42F0F144F3219020CCEA9C /* libPods-AdtradeSDKTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BDE2171CC7026B00151F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01BDE1ED1CC7026B00151F3B = {
+			isa = PBXGroup;
+			children = (
+				01BDE1F81CC7026B00151F3B /* AdtradeSDK */,
+				01BDE2121CC7026B00151F3B /* AdtradeSDKTests */,
+				01BDE21D1CC7026B00151F3B /* AdtradeSDKUITests */,
+				01BDE1F71CC7026B00151F3B /* Products */,
+				0C229E82898FEC3CC6FABA52 /* Pods */,
+				78E030412DFDA501A75D82E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01BDE1F71CC7026B00151F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01BDE1F61CC7026B00151F3B /* AdtradeSDK.app */,
+				01BDE20F1CC7026B00151F3B /* AdtradeSDKTests.xctest */,
+				01BDE21A1CC7026B00151F3B /* AdtradeSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01BDE1F81CC7026B00151F3B /* AdtradeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				01BDE1FC1CC7026B00151F3B /* AppDelegate.h */,
+				01BDE1FD1CC7026B00151F3B /* AppDelegate.m */,
+				01BDE1FF1CC7026B00151F3B /* ViewController.h */,
+				01BDE2001CC7026B00151F3B /* ViewController.m */,
+				01BDE2021CC7026B00151F3B /* Main.storyboard */,
+				01BDE2051CC7026B00151F3B /* Assets.xcassets */,
+				01BDE2071CC7026B00151F3B /* LaunchScreen.storyboard */,
+				01BDE20A1CC7026B00151F3B /* Info.plist */,
+				01BDE1F91CC7026B00151F3B /* Supporting Files */,
+			);
+			path = AdtradeSDK;
+			sourceTree = "<group>";
+		};
+		01BDE1F91CC7026B00151F3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01BDE1FA1CC7026B00151F3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01BDE2121CC7026B00151F3B /* AdtradeSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				01BDE2131CC7026B00151F3B /* AdtradeSDKTests.m */,
+				01BDE2151CC7026B00151F3B /* Info.plist */,
+			);
+			path = AdtradeSDKTests;
+			sourceTree = "<group>";
+		};
+		01BDE21D1CC7026B00151F3B /* AdtradeSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01BDE21E1CC7026B00151F3B /* AdtradeSDKUITests.m */,
+				01BDE2201CC7026B00151F3B /* Info.plist */,
+			);
+			path = AdtradeSDKUITests;
+			sourceTree = "<group>";
+		};
+		0C229E82898FEC3CC6FABA52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D3C59F09A051CCE0BBD8BD0 /* Pods-AdtradeSDK.debug.xcconfig */,
+				F424794CB0B0001367B2A3C9 /* Pods-AdtradeSDK.release.xcconfig */,
+				D99899E4AAD3883E8D92A3CC /* Pods-AdtradeSDKTests.debug.xcconfig */,
+				95545D065702554944FB099D /* Pods-AdtradeSDKTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78E030412DFDA501A75D82E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F14953604D1B4A714B9097C5 /* libPods-AdtradeSDK.a */,
+				D60A58983903726225250D66 /* libPods-AdtradeSDKTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01BDE1F51CC7026B00151F3B /* AdtradeSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BDE2231CC7026B00151F3B /* Build configuration list for PBXNativeTarget "AdtradeSDK" */;
+			buildPhases = (
+				462A9351D947A572F3DDCD20 /* 📦 Check Pods Manifest.lock */,
+				01BDE1F21CC7026B00151F3B /* Sources */,
+				01BDE1F31CC7026B00151F3B /* Frameworks */,
+				01BDE1F41CC7026B00151F3B /* Resources */,
+				75C24DD5F9C8A4288E5B0ECF /* 📦 Embed Pods Frameworks */,
+				FB57606B9977CB55C9953C14 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdtradeSDK;
+			productName = AdtradeSDK;
+			productReference = 01BDE1F61CC7026B00151F3B /* AdtradeSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01BDE20E1CC7026B00151F3B /* AdtradeSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BDE2261CC7026B00151F3B /* Build configuration list for PBXNativeTarget "AdtradeSDKTests" */;
+			buildPhases = (
+				4F06D6DC51DDCA50886C854F /* 📦 Check Pods Manifest.lock */,
+				01BDE20B1CC7026B00151F3B /* Sources */,
+				01BDE20C1CC7026B00151F3B /* Frameworks */,
+				01BDE20D1CC7026B00151F3B /* Resources */,
+				47CF2C3FA41BAE7E42E8A132 /* 📦 Embed Pods Frameworks */,
+				A019DCDBEAEA99EF4DA97A51 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BDE2111CC7026B00151F3B /* PBXTargetDependency */,
+			);
+			name = AdtradeSDKTests;
+			productName = AdtradeSDKTests;
+			productReference = 01BDE20F1CC7026B00151F3B /* AdtradeSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01BDE2191CC7026B00151F3B /* AdtradeSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BDE2291CC7026B00151F3B /* Build configuration list for PBXNativeTarget "AdtradeSDKUITests" */;
+			buildPhases = (
+				01BDE2161CC7026B00151F3B /* Sources */,
+				01BDE2171CC7026B00151F3B /* Frameworks */,
+				01BDE2181CC7026B00151F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BDE21C1CC7026B00151F3B /* PBXTargetDependency */,
+			);
+			name = AdtradeSDKUITests;
+			productName = AdtradeSDKUITests;
+			productReference = 01BDE21A1CC7026B00151F3B /* AdtradeSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01BDE1EE1CC7026B00151F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "William Locke";
+				TargetAttributes = {
+					01BDE1F51CC7026B00151F3B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					01BDE20E1CC7026B00151F3B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 01BDE1F51CC7026B00151F3B;
+					};
+					01BDE2191CC7026B00151F3B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 01BDE1F51CC7026B00151F3B;
+					};
+				};
+			};
+			buildConfigurationList = 01BDE1F11CC7026B00151F3B /* Build configuration list for PBXProject "AdtradeSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01BDE1ED1CC7026B00151F3B;
+			productRefGroup = 01BDE1F71CC7026B00151F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01BDE1F51CC7026B00151F3B /* AdtradeSDK */,
+				01BDE20E1CC7026B00151F3B /* AdtradeSDKTests */,
+				01BDE2191CC7026B00151F3B /* AdtradeSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01BDE1F41CC7026B00151F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BDE2091CC7026B00151F3B /* LaunchScreen.storyboard in Resources */,
+				01BDE2061CC7026B00151F3B /* Assets.xcassets in Resources */,
+				01BDE2041CC7026B00151F3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BDE20D1CC7026B00151F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BDE2181CC7026B00151F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		462A9351D947A572F3DDCD20 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47CF2C3FA41BAE7E42E8A132 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdtradeSDKTests/Pods-AdtradeSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F06D6DC51DDCA50886C854F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75C24DD5F9C8A4288E5B0ECF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdtradeSDK/Pods-AdtradeSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A019DCDBEAEA99EF4DA97A51 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdtradeSDKTests/Pods-AdtradeSDKTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB57606B9977CB55C9953C14 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdtradeSDK/Pods-AdtradeSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01BDE1F21CC7026B00151F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BDE2011CC7026B00151F3B /* ViewController.m in Sources */,
+				01BDE1FE1CC7026B00151F3B /* AppDelegate.m in Sources */,
+				01BDE1FB1CC7026B00151F3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BDE20B1CC7026B00151F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BDE2141CC7026B00151F3B /* AdtradeSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BDE2161CC7026B00151F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BDE21F1CC7026B00151F3B /* AdtradeSDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01BDE2111CC7026B00151F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BDE1F51CC7026B00151F3B /* AdtradeSDK */;
+			targetProxy = 01BDE2101CC7026B00151F3B /* PBXContainerItemProxy */;
+		};
+		01BDE21C1CC7026B00151F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BDE1F51CC7026B00151F3B /* AdtradeSDK */;
+			targetProxy = 01BDE21B1CC7026B00151F3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01BDE2021CC7026B00151F3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BDE2031CC7026B00151F3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01BDE2071CC7026B00151F3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BDE2081CC7026B00151F3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01BDE2211CC7026B00151F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01BDE2221CC7026B00151F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01BDE2241CC7026B00151F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3C59F09A051CCE0BBD8BD0 /* Pods-AdtradeSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdtradeSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paribus.AdtradeSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01BDE2251CC7026B00151F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F424794CB0B0001367B2A3C9 /* Pods-AdtradeSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdtradeSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paribus.AdtradeSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01BDE2271CC7026B00151F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99899E4AAD3883E8D92A3CC /* Pods-AdtradeSDKTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdtradeSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paribus.AdtradeSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdtradeSDK.app/AdtradeSDK";
+			};
+			name = Debug;
+		};
+		01BDE2281CC7026B00151F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95545D065702554944FB099D /* Pods-AdtradeSDKTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdtradeSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paribus.AdtradeSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdtradeSDK.app/AdtradeSDK";
+			};
+			name = Release;
+		};
+		01BDE22A1CC7026B00151F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdtradeSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paribus.AdtradeSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdtradeSDK;
+			};
+			name = Debug;
+		};
+		01BDE22B1CC7026B00151F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdtradeSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paribus.AdtradeSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdtradeSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01BDE1F11CC7026B00151F3B /* Build configuration list for PBXProject "AdtradeSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BDE2211CC7026B00151F3B /* Debug */,
+				01BDE2221CC7026B00151F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BDE2231CC7026B00151F3B /* Build configuration list for PBXNativeTarget "AdtradeSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BDE2241CC7026B00151F3B /* Debug */,
+				01BDE2251CC7026B00151F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BDE2261CC7026B00151F3B /* Build configuration list for PBXNativeTarget "AdtradeSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BDE2271CC7026B00151F3B /* Debug */,
+				01BDE2281CC7026B00151F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BDE2291CC7026B00151F3B /* Build configuration list for PBXNativeTarget "AdtradeSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BDE22A1CC7026B00151F3B /* Debug */,
+				01BDE22B1CC7026B00151F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01BDE1EE1CC7026B00151F3B /* Project object */;
+}

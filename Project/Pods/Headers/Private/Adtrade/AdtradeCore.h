@@ -1,0 +1,1 @@
+../../../../../Classes/Adtrade/Core/AdtradeCore.h

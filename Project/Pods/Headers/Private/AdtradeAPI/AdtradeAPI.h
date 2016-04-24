@@ -1,0 +1,1 @@
+../../../../Development Pods/AdtradeAPI/Classes/AdtradeAPI.h
