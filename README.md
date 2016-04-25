@@ -45,3 +45,10 @@ Inside your app delegate's 'applicationDidBecomeActive:' function call the follo
   <img src="https://raw.githubusercontent.com/adtrade/adtrade-ios-sdk/master/Resources/show-ad.png" alt="Example interstitial"/>
 </p>
 
+
+
+
+Documentation
+-------------
+
+Documentation can be found [here](http://cocoadocs.org/docsets/Adtrade/)
