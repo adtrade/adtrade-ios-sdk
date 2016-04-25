@@ -67,9 +67,9 @@
 ///---------------------------------------------------------------------------------------
 /** Set server URL, e.g. http://localhost:3000/api/
  
- @param serverUrl Block executed when interstitial is successfully shown.
+ @param serverUrl API URL you want to point to (defaults to https://api.adtrade.com/api )
  */
-+(void)setServer:(NSString *)serverURL;
+-(void)setServer:(NSString *)serverURL;
 
 
 @end

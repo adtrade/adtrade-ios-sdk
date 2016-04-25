@@ -1,26 +1,22 @@
 PODS:
-  - Adtrade (2.14.2)
-  - AdtradeAPI (1.0.0)
+  - Adtrade (1.0.0):
+    - AdtradeAPI
+  - AdtradeAPI (1.0.1):
+    - ATNetworking
   - ATNetworking (1.0.0)
 
 DEPENDENCIES:
   - Adtrade (from `../`)
-  - AdtradeAPI (from `Development Pods/AdtradeAPI`)
-  - ATNetworking (from `Development Pods/ATNetworking`)
 
 EXTERNAL SOURCES:
   Adtrade:
     :path: "../"
-  AdtradeAPI:
-    :path: Development Pods/AdtradeAPI
-  ATNetworking:
-    :path: Development Pods/ATNetworking
 
 SPEC CHECKSUMS:
-  Adtrade: 92051e8a86d8938024e127615ba14773e7b408fc
-  AdtradeAPI: e3d8a09ab588c492bca2362e2d881a02ee36d55c
-  ATNetworking: 2a347276eb29a1fa62eff70536ee812c71ad2166
+  Adtrade: e7d44d3b59a59433d7e4a37a2ff5ad0c1c3c8655
+  AdtradeAPI: 86583502799d751959dc63785edb6c642fb985e9
+  ATNetworking: fa535fc13fc93dc383dc2dd6952db3f88967f70a
 
-PODFILE CHECKSUM: 3eb3005e54062246baef0ef9de40d06b9666d909
+PODFILE CHECKSUM: 36d4ed1db1a395521ba3f03f40aa7fce29bdc457
 
 COCOAPODS: 1.0.0.beta.6

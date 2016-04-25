@@ -89,7 +89,7 @@
     }
 }
 
-+(void)setServer:(NSString *)serverURL{
+-(void)setServer:(NSString *)serverURL{
     [[AdtradeAPI sharedInstance] setServer:serverURL];
 }
 

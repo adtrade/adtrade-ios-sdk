@@ -1,1 +1,1 @@
-../../../../Development Pods/ATNetworking/Classes/ATNetworking/ATDate.h
+../../../ATNetworking/Classes/ATNetworking/ATDate.h

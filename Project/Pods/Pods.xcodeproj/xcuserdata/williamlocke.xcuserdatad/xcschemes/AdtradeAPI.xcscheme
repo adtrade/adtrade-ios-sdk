@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '471C7E1CC36916FF575B51476D87BF20'
-               BlueprintName = 'Pods-AdtradeSDKTests'
+               BlueprintIdentifier = '4CD259F2E9669CEBDD2D86AF3A31E62E'
+               BlueprintName = 'AdtradeAPI'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-AdtradeSDKTests.a'>
+               BuildableName = 'libAdtradeAPI.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

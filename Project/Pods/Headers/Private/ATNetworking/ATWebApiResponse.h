@@ -1,1 +1,1 @@
-../../../../Development Pods/ATNetworking/Classes/ATNetworking/ATWebApiResponse.h
+../../../ATNetworking/Classes/ATNetworking/ATWebApiResponse.h

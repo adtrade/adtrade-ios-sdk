@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '471C7E1CC36916FF575B51476D87BF20'
-               BlueprintName = 'Pods-AdtradeSDKTests'
+               BlueprintIdentifier = 'C3EA3715E532DD79512C650B12F54AE5'
+               BlueprintName = 'ATNetworking'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-AdtradeSDKTests.a'>
+               BuildableName = 'libATNetworking.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
